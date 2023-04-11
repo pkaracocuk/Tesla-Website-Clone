@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    font-family: 'Slabo 13px', serif;
+    height: auto;
+    background-color: transparent;
+    margin-bottom: 4px;
+
+
+
+}
+
+header a {
+    transition: all 0.3s;
+}
+
+header a:hover {
+
+    color: rgb(102, 78, 78);
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.logo {
+    height: 20px;
+    width: 200px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 12px;
+
+}
+
+
+.nav-center {
+
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 180px;
+
+
+
+
+}
+
+.nav-center a {
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+
+
+.nav-right {
+
+
+    margin-top: 30px;
+    display: flex;
+    margin-right: 75px;
+
+
+
+
+
+}
+
+.nav-right a {
+
+    text-decoration: none;
+    font-family: 'Slabo 13px', serif;
+    padding-right: 15px;
+    color: black;
+
+
+}
+
+
+
+.carY {
+    background-image: url(/images/model-y.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.content a {
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    gap: 30px;
+
+
+}
+
+.buttons button {
+    width: 250px;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.order-btn {
+    color: white;
+    background-color: rgb(66, 64, 64);
+    opacity: 0.8;
+    transition: all 0.3s;
+    opacity: 1;
+
+
+}
+
+.order-btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+.drive-btn {
+    color: rgb(66, 64, 64);
+    background-color: rgb(233, 227, 217);
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.drive-btn:hover {
+    background-color: white;
+    color: rgb(92, 89, 89);
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.car3 {
+    background-image: url(/images/model-3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.car3 .content p {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.carS {
+    background-image: url(/images/model-s.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carX {
+    background-image: url(/images/model-x.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.solarPanel {
+    background-image: url(/images/solarpanels.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.solarPanel p {
+    font-size: 20px;
+}
+
+.solarRoof {
+    background-image: url(/images/roof.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.solarRoof p {
+    font-size: 20px;
+}
+
+.accessories {
+    background-image: url(/images/accessories.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1360px;
+    height: 500px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.accessories button {
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+.accessories button:hover {
+    background-color: #b4adad;
+    color: black;
+    transition: all 0.3s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(119, 115, 115);
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    transition: 0.4s;
+    width: 320px;
+    background-color: #fff;
+    padding: 80px 40px;
+    z-index: 4;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    bottom: 2px;
+    display: none;
+}
+
+aside a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+aside button.close {
+    font-size: 24px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+
+}
